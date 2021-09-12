@@ -16,7 +16,7 @@ const Hero: NextPage = () => {
               <h2 className='text-xl tracking-wide'>{subTitle}</h2>
             </div>
           </div>
-          <div className='relative my-4 lg:w-1/2 h-80 text-center'>
+          <div className='relative my-4 lg:w-1/2 h-48 lg:h-80 text-center'>
             <Image src={HeroImgSrc} alt='hero' objectFit='contain' layout='fill' />
           </div>
         </div>
