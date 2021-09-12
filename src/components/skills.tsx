@@ -45,20 +45,33 @@ const ProgressBar = skills.map((skill, key) => (
 
 const About: NextPage = () => {
   return (
-    <div className='pt-8 pb-16 mx-auto mt-8 bg-skills-sp' style={{ backgroundSize: '100% 100%' }}>
-      <section className=' flex flex-col mx-4 text-center' id='skills'>
-        <Title japanese='スキル' english='skills'></Title>
-        <div className='text-center'>
-          <Image
-            src={aboutSet.img_src}
-            alt={aboutSet.img_alt}
-            width={320}
-            height={240}
-            objectFit='contain'
-          />
-          <p className='pb-4 text-left'>{aboutSet.description}</p>
+    <div
+      className='pt-8 pb-16 mx-auto mt-8 bg-skills-sp lg:bg-skills'
+      style={{ backgroundSize: '100% 100%' }}
+    >
+      <section
+        className=' flex flex-col mx-4 lg:mx-auto lg:max-w-screen-lg text-center'
+        id='skills'
+      >
+        <div className='lg:ml-auto lg:w-1/2'>
+          <Title japanese='スキル' english='skills' position='start'></Title>
         </div>
-        <div className='pt-4 pb-8 bg-white'>{ProgressBar}</div>
+
+        <div className='lg:flex lg:flex-row'>
+          <div className='m-auto lg:w-1/2'>
+            <Image
+              src={aboutSet.img_src}
+              alt={aboutSet.img_alt}
+              width={320}
+              height={240}
+              objectFit='contain'
+            />
+          </div>
+          <div className='lg:w-1/2'>
+            <p className='pb-4 text-left'>{aboutSet.description}</p>
+            <div className='pt-4 pb-8 bg-white'>{ProgressBar}</div>
+          </div>
+        </div>
       </section>
     </div>
   );

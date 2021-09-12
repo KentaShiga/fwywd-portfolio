@@ -18,7 +18,7 @@ const Header: NextPage = () => {
         <nav className='lg:justify-around lg:m-auto lg:mr-0'>
           <ul className=' flex justify-around px-3'>
             {headerLinks.map((header) => (
-              <li className='pb-3 font-bold text-green uppercase' key={header}>
+              <li className='pb-3 lg:pb-0 lg:mx-4 font-bold text-green uppercase' key={header}>
                 <Link href={`#${header}`}>
                   <a>{header}</a>
                 </Link>
