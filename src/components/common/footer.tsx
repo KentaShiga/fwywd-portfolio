@@ -1,6 +1,8 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import facebook_img from '~/public/images/facebook.png';
+import twitter_img from '~/public/images/twitter.png';
 
 const auhtor: string = '名前 太郎';
 const copyRight: string = '2021 KIKAGAKU';
@@ -60,7 +62,7 @@ const Footer: NextPage = () => {
             <Link href='https://twitter.com'>
               <a className='m-3'>
                 <Image
-                  src='/images/twitter.png'
+                  src={twitter_img}
                   alt='Twitter Link'
                   width={snsIconSize}
                   height={snsIconSize}
@@ -71,7 +73,7 @@ const Footer: NextPage = () => {
             <Link href='https://www.facebook.com'>
               <a className='m-3'>
                 <Image
-                  src='/images/facebook.png'
+                  src={facebook_img}
                   alt='Facebook Link'
                   width={snsIconSize}
                   height={snsIconSize}

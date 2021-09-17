@@ -1,9 +1,9 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import logo_img from '~/public/images/logo.png';
 
 const headerLinks: string[] = ['about', 'skills', 'values', 'future'];
-const logo_img = '/images/logo.png';
 
 const Header: NextPage = () => {
   return (

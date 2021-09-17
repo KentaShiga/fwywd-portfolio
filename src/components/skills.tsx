@@ -2,10 +2,11 @@ import type { NextPage } from 'next';
 import Image from 'next/image';
 import Title from '@/components/common/title';
 import { DescriptionSet } from 'types/DescriptionSet.type';
+import skill_img from '~/public/images/skill.png';
 
 const aboutSet: DescriptionSet = {
-  img_src: '/images/skill.png',
-  img_alt: 'about-1',
+  img_src: skill_img,
+  img_alt: 'skill',
   description:
     'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
 };
