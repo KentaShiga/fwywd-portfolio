@@ -2,24 +2,27 @@ import type { NextPage } from 'next';
 import Image from 'next/image';
 import Title from '@/components/common/title';
 import { DescriptionSet } from 'types/DescriptionSet.type';
+import about_1_img from '~/public/images/about-1.png';
+import about_2_img from '~/public/images/about-2.png';
+import about_3_img from '~/public/images/about-3.png';
 
 const abouts: DescriptionSet[] = [
   {
-    img_src: '/images/about-1.png',
+    img_src: about_1_img,
     img_alt: 'about-1',
     title: '趣味',
     description:
       'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
   },
   {
-    img_src: '/images/about-2.png',
+    img_src: about_2_img,
     img_alt: 'about-2',
     title: '好きな食べ物',
     description:
       'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
   },
   {
-    img_src: '/images/about-3.png',
+    img_src: about_3_img,
     img_alt: 'about-3',
     title: '性格',
     description:

@@ -2,9 +2,10 @@ import type { NextPage } from 'next';
 import Image from 'next/image';
 import Title from '@/components/common/title';
 import { DescriptionSet } from 'types/DescriptionSet.type';
+import future_img from '~/public/images/future.png';
 
 const abouts: DescriptionSet = {
-  img_src: '/images/future.png',
+  img_src: future_img,
   img_alt: 'future',
   description:
     'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',

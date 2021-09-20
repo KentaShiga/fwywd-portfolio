@@ -1,9 +1,9 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
+import hero_img from '~/public/images/hero.png';
 
 const mainTitle: string = 'メインタイトル';
 const subTitle: string = 'サブタイトル';
-const HeroImgSrc: string = '/images/hero.png';
 
 const Hero: NextPage = () => {
   return (
@@ -17,7 +17,7 @@ const Hero: NextPage = () => {
             </div>
           </div>
           <div className='relative my-4 lg:w-1/2 h-48 lg:h-80 text-center'>
-            <Image src={HeroImgSrc} alt='hero' objectFit='contain' layout='fill' />
+            <Image src={hero_img} alt='hero' objectFit='contain' layout='fill' />
           </div>
         </div>
       </section>

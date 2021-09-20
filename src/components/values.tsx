@@ -2,24 +2,27 @@ import type { NextPage } from 'next';
 import Image from 'next/image';
 import Title from '@/components/common/title';
 import { DescriptionSet } from 'types/DescriptionSet.type';
+import value1_img from '~/public/images/value1.png';
+import value2_img from '~/public/images/value2.png';
+import value3_img from '~/public/images/value3.png';
 
 const abouts: DescriptionSet[] = [
   {
-    img_src: '/images/value1.png',
+    img_src: value1_img,
     img_alt: 'value-1',
     title: '価値観01',
     description:
       'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
   },
   {
-    img_src: '/images/value2.png',
+    img_src: value2_img,
     img_alt: 'value-2',
     title: '価値観02',
     description:
       'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
   },
   {
-    img_src: '/images/value3.png',
+    img_src: value3_img,
     img_alt: 'value-3',
     title: '価値観03',
     description:
