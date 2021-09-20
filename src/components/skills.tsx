@@ -55,7 +55,7 @@ const About: NextPage = () => {
         id='skills'
       >
         <div className='lg:ml-auto lg:w-1/2'>
-          <Title japanese='スキル' english='skills' position='start'></Title>
+          <Title japanese='スキル' english='skills' position='lg:justify-start'></Title>
         </div>
 
         <div className='lg:flex lg:flex-row'>

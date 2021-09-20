@@ -34,7 +34,7 @@ const Values: NextPage = () => {
   return (
     <div className='mx-auto'>
       <section className='flex flex-col mx-4 lg:mx-auto lg:max-w-screen-lg text-center' id='values'>
-        <Title japanese='価値観' english='values' position='center'></Title>
+        <Title japanese='価値観' english='values' position='lg:justify-center'></Title>
         <div className='lg:flex lg:flex-row lg:py-8 px-4 text-left bg-white lg:divide-x-2 divide-border-greenlight'>
           {abouts.map((about, key) => (
             <div className='lg:px-8 lg:w-full text-center' key={key}>
