@@ -39,7 +39,7 @@ const About: NextPage = () => {
         style={{ backgroundSize: '100% 80vh' }}
       >
         <div className='lg:mx-auto lg:max-w-screen-lg'>
-          <Title japanese='私について' english='about' position='center'></Title>
+          <Title japanese='私について' english='about' position='lg:justify-center'></Title>
           <div className='lg:flex lg:flex-row lg:gap-12 text-left'>
             {abouts.map((about, key) => (
               <div className=' lg:w-full text-center' key={key}>

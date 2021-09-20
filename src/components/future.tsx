@@ -19,8 +19,12 @@ const About: NextPage = () => {
         id='future'
       >
         <div className='lg:w-1/2'>
-          <Title japanese='3年後にやりたいこと' english='future' position='start'></Title>
-          <p className='mx-4 mb-4 lg:ml-0 text-left'>{abouts.description}</p>
+          <Title
+            japanese='3年後にやりたいこと'
+            english='future'
+            position='lg:justify-start'
+          ></Title>
+          <p className='mx-4 mb-4 lg:ml-0 text-left'>{abouts.description}</p>
         </div>
 
         <div className='lg:flex lg:flex-row lg:w-1/2 text-center'>
