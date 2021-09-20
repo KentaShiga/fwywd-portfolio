@@ -10,7 +10,7 @@ const Hero: NextPage = () => {
     <div className='m-auto'>
       <section className=' py-4 bg-header'>
         <div className='flex flex-col lg:flex-row mx-auto max-w-screen-lg'>
-          <div className='lg:my-auto lg:mr-auto'>
+          <div className='lg:m-auto'>
             <div className='m-auto lg:my-auto mt-2 mb-4 text-center lg:text-left text-white'>
               <h1 className='py-2 text-4xl font-bold tracking-wider'>{mainTitle}</h1>
               <h2 className='text-xl tracking-wide'>{subTitle}</h2>
