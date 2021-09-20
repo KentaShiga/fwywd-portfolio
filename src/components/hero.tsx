@@ -2,8 +2,8 @@ import type { NextPage } from 'next';
 import Image from 'next/image';
 import hero_img from '~/public/images/hero.png';
 
-const mainTitle: string = 'メインタイトル';
-const subTitle: string = 'サブタイトル';
+const mainTitle: string = 'Kenta Shiga';
+const subTitle: string = 'DevOps Engineer';
 
 const Hero: NextPage = () => {
   return (

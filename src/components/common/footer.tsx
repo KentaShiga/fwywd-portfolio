@@ -4,7 +4,7 @@ import Link from 'next/link';
 import facebook_img from '~/public/images/facebook.png';
 import twitter_img from '~/public/images/twitter.png';
 
-const auhtor: string = '名前 太郎';
+const auhtor: string = '志賀 健太';
 const copyRight: string = '2021 KIKAGAKU';
 
 type LinkSet = {
