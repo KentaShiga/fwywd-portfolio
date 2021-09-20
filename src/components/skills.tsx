@@ -8,7 +8,7 @@ const aboutSet: DescriptionSet = {
   img_src: skill_img,
   img_alt: 'skill',
   description:
-    'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
+    'SIerでのJavaアプリケーションの作成経験とDevOpsエンジニアとしてのスキルが自分の柱になっています。新しい技術に対する知的好奇心が高いため、Dockerなど所属チームで扱っていなかった技術であっても積極的に試してきました。また専門外の分野であっても他人のヘルプに入ることが多くよく問題を解決してきたので、トラブルシューティングに長けているとよく言われます。',
 };
 
 type skillSet = {
@@ -17,10 +17,10 @@ type skillSet = {
 };
 
 const skills: skillSet[] = [
-  { name: 'Skills', progress: 30 },
-  { name: 'Skills', progress: 40 },
-  { name: 'Skills', progress: 50 },
-  { name: 'Skills', progress: 60 },
+  { name: 'DevOps', progress: 70 },
+  { name: 'Java', progress: 60 },
+  { name: 'Python', progress: 50 },
+  { name: 'React', progress: 10 },
 ];
 
 const ProgressBar = skills.map((skill, key) => (

@@ -12,21 +12,21 @@ const abouts: DescriptionSet[] = [
     img_alt: 'about-1',
     title: '趣味',
     description:
-      'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
+      '学生の頃からずっとテニスをしています。コロナで人と会えない時でも壁打ちテニス場で黙々とボールを打ち続けていました。またボードゲームも最近ハマっていてカタンを友達とずっと遊んでいます。',
   },
   {
     img_src: about_2_img,
     img_alt: 'about-2',
     title: '好きな食べ物',
     description:
-      'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
+      'ラーメンやハンバーグが好きです。休日によくミシュランガイドを片手に都内の人気店巡りをしています。また、たまに贅沢して友達と焼肉や寿司などの高級な店に行き、料理の美味しさを一緒に体験することを大切にしています。',
   },
   {
     img_src: about_3_img,
     img_alt: 'about-3',
     title: '性格',
     description:
-      'テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト',
+      'おとなしく穏やかな性格です。人の話をよく聴くことが長所だと言われることが多いです。他人に対しては謙虚な姿勢でいることが多いですが、競争となると負けず嫌いの一面を見せることがあります。',
   },
 ];
 
@@ -42,7 +42,7 @@ const About: NextPage = () => {
           <Title japanese='私について' english='about' position='center'></Title>
           <div className='lg:flex lg:flex-row lg:gap-12 text-left'>
             {abouts.map((about, key) => (
-              <div className='text-center' key={key}>
+              <div className=' lg:w-full text-center' key={key}>
                 <Image
                   src={about.img_src}
                   alt={about.img_alt}
