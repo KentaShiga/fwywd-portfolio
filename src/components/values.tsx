@@ -30,11 +30,11 @@ const abouts: DescriptionSet[] = [
 const Values: NextPage = () => {
   return (
     <div className='mx-auto'>
-      <section className='flex flex-col mx-4 text-center' id='values'>
-        <Title japanese='価値観' english='values'></Title>
-        <div className='px-4 text-left bg-white'>
+      <section className='flex flex-col mx-4 lg:mx-auto lg:max-w-screen-lg text-center' id='values'>
+        <Title japanese='価値観' english='values' position='center'></Title>
+        <div className='lg:flex lg:flex-row lg:py-8 px-4 text-left bg-white lg:divide-x-2 divide-border-greenlight'>
           {abouts.map((about, key) => (
-            <div className='text-center' key={key}>
+            <div className='lg:px-8 text-center' key={key}>
               <Image
                 src={about.img_src}
                 alt={about.img_alt}
